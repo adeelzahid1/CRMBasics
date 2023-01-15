@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4709c3555ffa4e98b80d5a6473ec1332" Name="Diagram1" >
+        <EntityTypeShape EntityType="CRMModelContext.CRMCompany" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CRMModelContext.CRMPerson" Width="1.5" PointX="2.5" PointY="0.875" />
+        <EntityTypeShape EntityType="CRMModelContext.City" Width="1.5" PointX="8.875" PointY="2.125" />
+        <EntityTypeShape EntityType="CRMModelContext.Country" Width="1.5" PointX="4.375" PointY="2.25" />
+        <EntityTypeShape EntityType="CRMModelContext.Province" Width="1.5" PointX="6.625" PointY="2" />
+        <AssociationConnector Association="CRMModelContext.FK__City__p_id__286302EC" />
+        <AssociationConnector Association="CRMModelContext.FK__Province__C_id__25869641" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

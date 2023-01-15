@@ -1,0 +1,98 @@
+﻿/*body {
+    margin-top: 75px;
+}*/
+
+.navbar {
+    box-shadow: rgba(65, 159, 229, 0.7) 2px 2px 5px;
+    /*background-color: #fff;*/
+    opacity: 0.8;
+}
+
+    .navbar .nav-item {
+        font-size: 1.4rem; /*18px*/
+        padding-right: 1.2rem;
+    }
+
+    .navbar .nav-link, .txtlogo {
+        color: white;
+    }
+
+/*.navbar-brand {
+}*/
+/* Three Dots for Text Boxes ... */
+
+#countryTxt, #provinceTxt, #cityTxt {
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.copyright {
+    background-color: #111;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.social-pet li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+    .social-pet li a {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        text-align: center;
+        display: block;
+        line-height: 35px;
+        background-color: #3a5a95;
+        color: #fff;
+    }
+
+    .social-pet li:nth-child(2) a {
+        background-color: #57aced;
+    }
+
+    .social-pet li:nth-child(3) a {
+        background-color: #dd4f43;
+    }
+
+    .social-pet li:nth-child(4) a {
+        background-color: #6b27b2;
+    }
+
+    .social-pet li a:hover {
+        background-color: #0141a2;
+    }
+
+        .social-pet li a:hover i {
+            transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+        }
+
+footer .input-group-addon {
+    background-color: #0141a2;
+    padding: 10px;
+}
+
+.customer1 {
+    color: #dd4f43;
+}
+
+.customer2 {
+    color: #57aced;
+}
+
+.customer3 {
+    color: goldenrod;
+}
+
+.form p{
+    font-size: 1.0rem;
+    text-align: left;
+}
